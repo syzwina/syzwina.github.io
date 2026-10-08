@@ -208,10 +208,10 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
+        repo: syzwina/syzwina.github.io
+        repoId: R_kgDOVBeewQ
         category: Announcements
-        categoryId: TODO:your-category-id
+        categoryId: DIC_kwDOVBeewc4DHXZj
         mapping: url
         strict: true
         reactionsEnabled: true
