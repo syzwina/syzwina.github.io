@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: چاتيت
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -144,6 +144,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: تروکاءي
     layout:
       position: left
       priority: 50
@@ -151,6 +153,12 @@ plugins:
     enabled: true
     layout:
       position: right
+      priority: 10
+      condition: not-index
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: afterBody
       priority: 10
   - source: "@quartz-community/search"
     enabled: true
@@ -197,6 +205,7 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+      condition: not-index
   - source: "@quartz-community/breadcrumbs"
     enabled: true
     layout:
@@ -225,19 +234,17 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
     layout:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: Recent Notes
+      title: چاتتن بهارو
       limit: 5
       linkToMore: false
       showTags: true
+      hideTagPages: true
     layout:
       position: left
       priority: 25
