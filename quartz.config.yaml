@@ -144,8 +144,6 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
-    options:
-      title: تروکاءي
     layout:
       position: left
       priority: 50
@@ -153,12 +151,6 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 10
-      condition: not-index
-  - source: "@quartz-community/graph"
-    enabled: true
-    layout:
-      position: afterBody
       priority: 10
   - source: "@quartz-community/search"
     enabled: true
@@ -240,7 +232,6 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: چاتتن بهارو
       limit: 5
       linkToMore: false
       showTags: true
@@ -248,6 +239,7 @@ plugins:
     layout:
       position: left
       priority: 25
+      display: desktop-only
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
