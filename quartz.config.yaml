@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: چاتيت
+  pageTitle: چاتتن نور شزوينى
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -160,6 +160,7 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
+      display: desktop-only
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
