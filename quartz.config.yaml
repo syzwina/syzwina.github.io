@@ -21,23 +21,23 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
+        light: "#FAFCFC"
+        lightgray: "#DAE6E2"
+        gray: "#AEB8B5"
+        darkgray: "#4B4F4E"
+        dark: "#292B2B"
+        secondary: "#153B2E"
+        tertiary: "#668077"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
+        light: "#040605"
+        lightgray: "#1C2924"
+        gray: "#636363"
+        darkgray: "#CFD8D5"
+        dark: "#EDEEED"
+        secondary: "#A6BAB3"
+        tertiary: "#85a69b"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
@@ -237,6 +237,7 @@ plugins:
       linkToMore: false
       showTags: true
       hideTagPages: true
+      hideFolderPages: true
     layout:
       position: left
       priority: 25
